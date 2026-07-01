@@ -131,12 +131,12 @@ app.innerHTML = `
     <section class="workspace">
       <aside class="sidebar" aria-label="Wedding coordination information">
         <section>
-          <p class="section-label">Important Contacts</p>
+          <p class="section-label">Contacts</p>
           <div class="contact-list">${renderContacts(weddingConfig.contacts)}</div>
         </section>
 
         <section>
-          <p class="section-label">Document Notes</p>
+          <p class="section-label">Notes</p>
           <ul class="notes">
             ${weddingConfig.notes.map((note) => `<li>${escapeHtml(note)}</li>`).join("")}
           </ul>

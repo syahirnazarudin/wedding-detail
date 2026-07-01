@@ -1,24 +1,32 @@
 export const weddingConfig = {
-  coupleNames: 'Syahir & Zubairah',
-  eventLabel: 'Wedding Operations',
-  title: 'Event Day Details',
+  coupleNames: "Syahir & Zubairah",
+  eventLabel: "Wedding Operations",
+  title: "Event Day Details",
   description:
-    'A tidy reference for family members and the person in charge during the wedding day.',
-  documentTitle: 'Tentative, duty list, contacts, and notes',
-  googleDocUrl: 'https://docs.google.com/document/d/e/2PACX-1vSSoXPRoIvt3gL9lT1Dzr12SaepzTBjqlEdyNkf3d0laqWd7FgNIcrsjw1MI7nSvhZOMJHlrpjU7ktH/pub',
+    "A reference for family members and the person in charge during the wedding day.",
+  documentTitle: "Tentative and full details",
+  googleDocUrl:
+    "https://docs.google.com/document/d/e/2PACX-1vSSoXPRoIvt3gL9lT1Dzr12SaepzTBjqlEdyNkf3d0laqWd7FgNIcrsjw1MI7nSvhZOMJHlrpjU7ktH/pub",
   eventInfo: [
-    { label: 'Date', value: 'Update wedding date' },
-    { label: 'Venue', value: 'Update venue name' },
-    { label: 'Access', value: 'Family and event crew' },
+    { label: "Date", value: "8 August 2026" },
+    { label: "Venue", value: "Alam Maya Kajang" },
+    { label: "Time", value: "8.00 AM - 4.00 PM" },
   ],
   contacts: [
-    { name: 'Person In Charge', role: 'Overall coordination', phone: '+60 00-000 0000' },
-    { name: 'Family Representative', role: 'Family matters', phone: '+60 00-000 0000' },
-    { name: 'Venue Contact', role: 'Venue and setup', phone: '+60 00-000 0000' },
+    {
+      name: "En Afeeq",
+      role: "Floor Manager",
+      phone: "011-10171667",
+    },
+    {
+      name: "Yok Cendol",
+      role: "Vendor Bihun Sup",
+      phone: "012-6220382",
+    },
   ],
   notes: [
-    'Update the Google Doc whenever the tentative changes.',
-    'Use table headings clearly so everyone can scan the schedule quickly.',
-    'Keep phone numbers and vendor names near the top of the document.',
+    "Update the Google Doc whenever the tentative changes.",
+    "Use table headings clearly so everyone can scan the schedule quickly.",
+    "Keep phone numbers and vendor names near the top of the document.",
   ],
-}
+};
