@@ -27,7 +27,7 @@ npm run dev
 The app is configured for:
 
 ```text
-https://syahirxzubairah.com/wedding-details/
+https://wedding-detail.syahirxzubairah.com/
 ```
 
 ## Build For GitHub Pages
@@ -36,4 +36,8 @@ https://syahirxzubairah.com/wedding-details/
 npm run build
 ```
 
-Deploy the `dist` folder to GitHub Pages.
+## Deploy To GitHub Pages
+
+```bash
+npm run deploy
+```
